@@ -11,5 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: show system information
+        run: uname -a
       - name: Run a one-line script
         run: echo "Hello, World!"
+      - name: show current date
+        run: date  
